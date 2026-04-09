@@ -1,0 +1,86 @@
+/* =============================================
+   GLOBAL TAG SELECTOR — applies style to a tag
+   ============================================= */
+body {
+  font-family: Georgia, serif;
+  background-color: #f5f0eb;
+  color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  border-bottom: 2px solid #b5651d;
+  padding-bottom: 6px;
+}
+
+/* =============================================
+   ID SELECTORS
+   ============================================= */
+#header {
+  background-color: #2b2b2b;
+  color: #f5f0eb;
+  text-align: center;
+  /* BOX MODEL: padding and margin */
+  padding: 48px 24px;
+  margin-bottom: 0;
+}
+
+#footer {
+  background-color: #2b2b2b;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.85rem;
+}
+
+/* =============================================
+   CLASS SELECTORS
+   ============================================= */
+.subtitle {
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  color: #ccc;
+  margin-top: 8px;
+}
+
+.section {
+  max-width: 700px;
+  /* BOX MODEL: margin and padding */
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+/* Class reused on multiple .card elements */
+.card {
+  background: #fff;
+  border-left: 4px solid #b5651d;
+  padding: 16px 20px;
+  margin: 16px 0;
+  border-radius: 2px;
+}
+
+/* =============================================
+   IMAGE STYLING
+   ============================================= */
+img {
+  display: block;
+  border-radius: 50%;
+  margin: 16px 0;
+  border: 3px solid #b5651d;
+}
+
+/* =============================================
+   LINK STYLING + HOVER
+   ============================================= */
+a {
+  color: #b5651d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #e07b2a;
+  text-decoration: underline;
+}
